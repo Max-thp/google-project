@@ -1,0 +1,70 @@
+body {
+	background: #fff;
+
+}
+
+header {
+
+height: 50px;
+
+}
+.container {
+
+
+}	
+
+
+#menu {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin-left: 70%;
+}
+
+#logo {
+	padding-top: 109px;
+	display: flex;
+	justify-content: center;
+}
+
+#logo img {
+	height: 92px;
+	width: 272px;
+}
+
+
+.search {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.search:searchbar {
+	order: 1;
+}
+
+.search:btn-search {
+	order: 2;
+
+}
+
+.search:btn-chance {
+	order: 3;
+}
+
+.footer {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+
+}
+
+.footer1 {
+	list-style: none;
+
+}
+	
+}
+.footer2{
+	list-style: none;
+}
